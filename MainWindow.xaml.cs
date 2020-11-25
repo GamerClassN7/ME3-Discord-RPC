@@ -134,7 +134,14 @@ namespace ME3_Discord_RPC
             packetData.Add("opssurvivalpacksused", player.ConsumablesUsedCounts[2].ToString());
             packetData.Add("thermalclippacksused", player.ConsumablesUsedCounts[3].ToString());
             packetData.Add("playermedals*", player.Medals);
+
+
+
             packetData.Add("teammedals*", results.TeamMedals);
+
+
+
+
 
             lastSec = seconds;
             CloseHandle(processHandle);
